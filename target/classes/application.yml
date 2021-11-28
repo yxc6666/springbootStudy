@@ -1,0 +1,28 @@
+person:
+  username: 张三
+  sss: 李四
+  boss: true
+  birth: 2021/10/10
+  age: 18
+  pet:
+    name: 田园犬
+    weight: 23
+
+  intereses: [篮球,足球]
+  animal: [啊,吧]
+  score: {english: 10,math: 20}
+  salarys: [123,2345]
+  allPets:
+    sick:
+      - {name: 阿毛,weight: 12}
+      - name: 阿狗
+        weight: 90
+      - name: 鱼
+        weight: 65
+    health:
+      - {name: 阿画,weight: 112}
+      - {name: 阿是,weight: 132}
+server:
+  servlet:
+    encoding:
+      charset: gbk

@@ -2,14 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-01-helloworld" />
+        <module name="boot-01-helloworld-2" />
+        <module name="boot-05-web-01" />
         <module name="springbootStudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot-01-helloworld" target="1.8" />
+      <module name="boot-01-helloworld-2" target="1.8" />
+      <module name="boot-05-web-01" target="1.8" />
       <module name="springbootStudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
